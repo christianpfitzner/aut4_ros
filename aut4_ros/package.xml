@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package>
+  <name>aut4_ros</name>
+  <version>1.0.0</version>
+  <description>Meta package for ohm_tutorial</description>
+
+  <maintainer email="christian.pfitzner@th-nuernberg.de">Christian Pfitzner</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>hello_world</run_depend>
+  <run_depend>reactive_navigation</run_depend>
+  <run_depend>turtle_control</run_depend>
+  <export>
+    <metapackage/>
+  </export>
+</package>
