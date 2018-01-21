@@ -52,13 +52,9 @@ void publishTwist(void)
 
 
 
-
-
-
-
    geometry_msgs::Twist v;
 
- 
+
   /**
    * bug fix for simulation:
    * Values close to zero cause problems in the simulation.
